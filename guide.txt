@@ -1,0 +1,19 @@
+Key word in the name of the repo stands for
+These key words should be reserved only for their specific purpose and 
+they shouldn't be used elsewehere
+
+SSGAC_tA1 : (just like this somewhere on the name of the repo usually after the date)
+    - tA1 to type A1
+    - UKB data project, I used ukb data in it and so it should be save on my UKB folder to keep ukb data private to those who have permission to see the data.
+    - CF (code files, files that are completely generated and controlled by the code in the associated code repo) - not necessary small files can be big files no limit because of enough space on NBER servers.
+    - Saved on NBER servers only not local due to data privacy &/or file sizes
+    - Also it signals it is a SSGAC repo so I don't add SSGAC keyword again after this.
+    - Usually contains inp/ med/ out/ subdirs.
+    - /Out/ folder contains only data and outputs that can be moved outside the servers
+SSGAC_tA2:
+    - The outputs that are on the server or produced locally but with the same code repo
+    - Contains SSGAC_tA1 full name/out__synced/ folder which is synced with the NBER server by running a rsync instance between the local machine & server
+    - I also save other locally created files in local/ folder in this repo
+    - It will be public repo on Github
+
+
