@@ -10,6 +10,8 @@ SSGAC_tA1 : (just like this somewhere on the name of the repo usually after the 
     - Also it signals it is a SSGAC repo so I don't add SSGAC keyword again after this.
     - Usually contains inp/ med/ out/ subdirs.
     - /Out/ folder contains only data and outputs that can be moved outside the servers
+    - just listed the name on the Github public but empty to reserve the name only
+    
 SSGAC_tA2:
     - The outputs that are on the server or produced locally but with the same code repo
     - Contains SSGAC_tA1 full name/out__synced/ folder which is synced with the NBER server by running a rsync instance between the local machine & server
