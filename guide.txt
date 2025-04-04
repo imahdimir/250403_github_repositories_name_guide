@@ -2,6 +2,9 @@ Key word in the name of the repo stands for
 These key words should be reserved only for their specific purpose and 
 they shouldn't be used elsewehere
 
+Every repo name starts with its id that kept in another repo (the last one number), like: i3_ (so start to the first _ is the id starts with i to not start it with a number because it might be a python package in python names should start with a letter)
+if one repo has one or more associated repos like the data repos that are related to a code repo I name it like this i5i0 meaning this is the number zero (first one) and it signals there is another or more repos related to this, the next one would be i5i1 and i5i2 and so on.
+
 SSGAC_tA1 : (just like this somewhere on the name of the repo usually after the date)
     - tA1 to type A1
     - UKB data project, I used ukb data in it and so it should be save on my UKB folder to keep ukb data private to those who have permission to see the data.
