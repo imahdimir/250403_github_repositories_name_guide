@@ -35,6 +35,7 @@ _CF_:
 
 _SF_:
     - Used for repos that has only small files in it, for archiving in a safe place.
+    - Not produced by code but it is manuall like a manuscript or a draft for a paper or some document to archive or to version
 
 ^_iN_p1:
     - Used for repos that has parts in other repos to not keep too many files in a single repo like only has 100 files not more.
