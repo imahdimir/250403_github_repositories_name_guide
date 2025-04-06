@@ -39,3 +39,9 @@ _SF_:
 
 ^_iN_p1:
     - Used for repos that has parts in other repos to not keep too many files in a single repo like only has 100 files not more.
+
+_SSGAC_:
+    - for all repos related to SSGAC
+
+_Alex_:
+    - All repos that are related to the work with Alex
