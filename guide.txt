@@ -31,4 +31,4 @@ _Alex_:
     - related to the work with Alex
 
 General Recommendation:
-- use enough tags and keyword and description in the repo name not too short but shorter and simpler better, shortest that has enough information, not too short and not too long.
+- Have enough tags and keyword and description in the repo name not too short but shorter and simpler better, shortest that has enough information, not too short and not too long.
