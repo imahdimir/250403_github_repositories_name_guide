@@ -2,7 +2,6 @@
 - Create metadata for repos and grouping and tagging system.
 
 Rule:
-
 - The following is the rule that I apply to all repos on my account except some repos with short names but I prefer to apply it to all repos unless I have good reason to not to do that. like previous python packages on pip.
 
 ^iN_...$ 
@@ -16,7 +15,6 @@ Every repo name starts with its id just in this exact format (iN_)
 
 
 Some Keywords that I use and their meaning:
-
 - These are no meant to be unique or reserved and not used for any other purpose than stated here but I use them for these purposes in occassions but there is no gurantee of being reserved or consistency for future use, I just use these for their description but it is not a rule or a reserved keyword or tag. I should have some form of database or something for making groups and lists and saving the metadata of the repos.
 
 _CF_:
@@ -31,3 +29,6 @@ _SSGAC_:
 
 _Alex_:
     - related to the work with Alex
+
+General Recommendation:
+- use enough tags and keyword and description in the repo name not too short but shorter and simpler better, shortest that has enough information, not too short and not too long.
