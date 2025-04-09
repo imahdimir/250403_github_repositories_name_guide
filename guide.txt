@@ -1,4 +1,10 @@
+/TODO:
+- Create metadata for repos and grouping and tagging system.
+
 Rule:
+
+- The following is the rule that I apply to all repos on my account except some repos with short names but I prefer to apply it to all repos unless I have good reason to not to do that. like previous python packages on pip.
+
 ^iN_...$ 
 Every repo name starts with its id just in this exact format (iN_)
     - Simple & Permenant Rule
@@ -8,23 +14,10 @@ Every repo name starts with its id just in this exact format (iN_)
     - So from start to the first _ is id.
     - The id starts with i to not start it with a number because it might be a python package in python names cannot start with a letter.
 
----
-_SSGAC_tA1_ : (just like this somewhere on the name of the repo usually after the date)
-    - tA1: type A1
-    - UKB data project, I used ukb data in it and so it is only saved on my UKB folder to keep ukb data private to those who have permission to see the data.
-    - CF (code files, files that are completely generated and controlled by the code in the associated code repo) 
-    - not necessary small files can be big files no limit because of enough space on NBER servers.
-    - Saved on NBER servers only not local due to data privacy &/or file sizes
-    - Also it signals it is a SSGAC repo so I don't add SSGAC keyword again after this.
-    - Usually contains inp/ med/ out/ subdirs.
-    - /Out/ folder contains only data and outputs that can be moved outside the servers. Only Output results that can be public.
-    - Just listed the name on the Github public but empty to reserve the name only
-    - Private repo on Github
-    
-_SSGAC_tA2_:
-    - The outputs that are on the server or produced locally but with the same code repo
-    - Contains associated SSGAC_tA1 full name/out_synced/ folder which is synced with the NBER server by running rsync between the local machine &           server.
-    - It will be a private repo on Github
+
+Some Keywords that I use and their meaning:
+
+- These are no meant to be unique or reserved and not used for any other purpose than stated here but I use them for these purposes in occassions but there is no gurantee of being reserved or consistency for future use, I just use these for their description but it is not a rule or a reserved keyword or tag. I should have some form of database or something for making groups and lists and saving the metadata of the repos.
 
 _CF_:
     - Code files, the data that are inputed or created by another associated code repo either in med/ or out/
@@ -33,11 +26,8 @@ _SF_:
     - Used for repos that has only small files in it, for archiving in a safe place.
     - Not produced by code but it is manuall like a manuscript or a draft for a paper or some document to archive or to version
 
-^_iN_pX:
-    - Used for repos that has parts in other repos to not keep too many files in a single repo like only has 100 files not more.
-
 _SSGAC_:
-    - for all repos related to SSGAC
+    - related to SSGAC
 
 _Alex_:
-    - All repos that are related to the work with Alex
+    - related to the work with Alex
